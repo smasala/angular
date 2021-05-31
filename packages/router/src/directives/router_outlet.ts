@@ -7,11 +7,11 @@
  */
 
 import {Attribute, ChangeDetectorRef, ComponentFactoryResolver, ComponentRef, Directive, EventEmitter, Injector, OnDestroy, OnInit, Output, ViewContainerRef} from '@angular/core';
-
 import {Data} from '../config';
 import {ChildrenOutletContexts} from '../router_outlet_context';
 import {ActivatedRoute} from '../router_state';
 import {PRIMARY_OUTLET} from '../shared';
+
 
 /**
  * An interface that defines the contract for developing a component outlet for the `Router`.
